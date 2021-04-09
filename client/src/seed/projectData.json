@@ -28,6 +28,21 @@
       "id": "2"
 
     },
+    {
+      "name": "Pets-R-Us",
+      "link":
+        "https://pets-r-us.netlify.app/",
+      "description":
+        "Overview: Pets-R-Us is a full (Mongo/Express/React/Node) MERN stack application that allows local animal adoption agencies to post their adorable animals. Every year, thousands of animals are displaced and live without a home. It is our belief that every pet deserves a home. The following is a list of the features: our application has full CRUD on the back, and utilizing the React framework on the front end.",
+      "gitHub": "https://github.com/jessicamyee/pets-r-us",
+      "imgURL":
+        "https://res.cloudinary.com/dygk00sc0/image/upload/v1618005184/1_e38gxz.png",
+      "technical": "MERN stack application",
+      "languages":"HTML, CSS, JavaScript, React, Express, etc." ,
+
+      "id": "4"
+
+    },
 
     {
       "name": "Dev-Training",
@@ -44,5 +59,4 @@
       "id": "3"
 
     }
-    
   ]

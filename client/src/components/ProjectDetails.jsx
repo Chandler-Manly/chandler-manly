@@ -29,7 +29,7 @@ export default function Project(props) {
         </div>
         </div>
 
-        <div className="portfolio-links">
+        <div className="show-project-links">
           <h2>Portfolio Links</h2>
           <a href={showProject.link}>Deployed Link</a>
           <br />
