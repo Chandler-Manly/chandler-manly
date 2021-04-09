@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Layout from "../components/shared/Layout";
 import projectData from "../seed/projectData.json";
+import "../assets/ProjectDetails.css";
 
 export default function Project(props) {
   const params = useParams();
