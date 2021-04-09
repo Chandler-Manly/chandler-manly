@@ -5,34 +5,24 @@ const Footer = () =>
   <footer>
         <div className="footer">
       <div className="footer-items">
-      <p>Interested in learning more about wine? Follow ON-DEMAND-SOMM on social media:</p>
         <div className="icons">
-          <div className="insta"> 
+          <div className="linkedin"> 
           <a
-        href="https://www.instagram.com/on_demand_somm/"
-        className="fa fa-instagram"
+        href="https://www.linkedin.com/in/chandler-manly/"
+        className="fa fa-linkedin"
       >
-        Instagram
+        Linkedin
             </a>
           </div>
-          <div className="twitter">
-      <a href="https://twitter.com/ondemandsomm" className="fa fa-twitter">
-        Twitter
+          <div className="github">
+      <a href="https://github.com/Chandler-Manly" className="fa fa-github">
+        GitHub
             </a>
           </div>
-          <div className="FB">
-      <a
-        href="https://www.facebook.com/On-Demand-Somm-109988864519549"
-        className="fa fa-facebook"
-      >
-        Facebook
-            </a>
-            </div>
         </div>
-        
       </div>
     </div>
 
     </footer>
 
-export default Footer
+export default Footer;

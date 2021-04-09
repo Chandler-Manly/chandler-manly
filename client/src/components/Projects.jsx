@@ -13,7 +13,11 @@ export default function Project(props) {
 
   return (
     <Layout>
-    <div>
+      <div>
+        <div className="portfolio-header">
+          "Art is never finished, only abandoned"</div>
+
+          <div className="portfolio-header-author">-Leonardo da Vinci</div>
             {projects.map((project) => 
         <div className="project">
                 <Link className="card" to={`/projects/${project.id}`}>
@@ -22,10 +26,14 @@ export default function Project(props) {
                     </div>
                   </Link>
           <div className="project-name">{project.name}</div>
-          <div className="description">{project.description}</div>
-                <a href={project.gitHub}>GitHub Repo</a>
+                <div className="description">{project.description}</div>
+                <div className="project-links">
+                  <div>
+                <a href={project.gitHub} className="fa fa-github">GitHub Repo</a>
                 <a href={project.link}>Deployed Site</a>
-      </div>)}
+              </div>
+                  </div>
+                </div>)}
       </div>
       </Layout>
   )

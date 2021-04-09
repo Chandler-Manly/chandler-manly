@@ -9,14 +9,37 @@
   margin-bottom: 60px;
 }
 
+.project-image {
+  box-shadow: 10px 5px 5px 5px gray;
+}
+
 .project:hover {
   transform: scale(1.02);
   opacity: .9;
 }
 
 .project-name {
-  font-size: 24px;
+  font-size: 36px;
   padding: 10px;
+}
+
+.description {
+  font-size: 24px;
+}
+
+.portfolio-header{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.portfolio-header-author {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-bottom: 20px;
+
 }
 
 @media (max-width: 500px) {
@@ -26,7 +49,5 @@
   }
   .project-image {
       width: 180px;
-      margin: 15px;
-      padding: 10px;
   }
 }
