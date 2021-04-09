@@ -7,7 +7,9 @@ import "../assets/Projects.css";
 
 
 export default function Project(props) {
+// eslint-disable-next-line
   const [projects, setProjects] = useState(projectData);
+  // setProjects(projectData);
 
   return (
     <Layout>

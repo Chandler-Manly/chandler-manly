@@ -1,8 +1,7 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Layout from '../components/shared/Layout';
 import projectData from "../seed/projectData.json";
-import { useState } from "react";
 
 
 export default function Project(props) {
