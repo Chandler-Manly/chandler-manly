@@ -37,6 +37,32 @@
       "quote": "...Everyone who is on a quest to become an expert needs a proper training ground, welcome to Dev-Training!...",
       "id": "3"
 
+    },
+    {
+      "name": "Weather-Now",
+      "link":
+        "https://chandler-manly.github.io/Weather-App/",
+      "description":
+        "Weather-Now allows users to input their city name and retrieve current weather information.",
+      "gitHub": "https://github.com/Chandler-Manly/Weather-App",
+      "imgURL":
+        "https://res.cloudinary.com/dygk00sc0/image/upload/v1617907165/Weathernow_yspyvl.png",
+      "quote": "...We love checking the weather and deciding what to wear...",
+      "id": "2"
+
+    },
+    {
+      "name": "Dev-Training",
+      "link":
+        "https://dev-training.netlify.app/",
+      "description":
+        "Dev-Training is an Airtable and React build where the user is able to leave a comment for several software development topics: HTML, CSS, JS. The homepage will offer three different paths on the Nav bar so the user can quickly get to the general topic populated with a feed of previously posted comments. Each page will have a form to create new comments. Users will be able to delete and edit this comment. The following dependencies will need to be installed via npm install axios, react-router-dom.",
+      "gitHub": "https://github.com/Chandler-Manly/Dev-Training",
+      "imgURL":
+        "https://res.cloudinary.com/dygk00sc0/image/upload/v1617907555/Dev-Training_zutcme.png",
+      "quote": "...Everyone who is on a quest to become an expert needs a proper training ground, welcome to Dev-Training!...",
+      "id": "3"
+
     }
     
   ]

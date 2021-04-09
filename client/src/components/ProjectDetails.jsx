@@ -7,21 +7,31 @@ import { useState } from "react";
 
 export default function Project(props) {
 
-  const project = props.projectData;
+  const params = useParams();
+
+  const showProject = projectData.find((project) => params.id === project.id);
+
 
   return (
     <Layout>
     <div>
-        <div className="project">
-          <Link className="card" to={`/projects/${project.id}`}>
-                  <img src={project.imgURL} alt={project.name} />
-                  </Link>
-          <div className="name">{project.name}</div>
-          <div className="description">{project.description}</div>
-                <a href={project.gitHub}>GitHub Repo</a>
-                <a href={project.link}>Deployed Site</a>
-                <div>"{project.quote}"-Chandler</div>
-      </div>
+        <h3>{showProject.name} Project Details</h3>
+        <div className='show-image'>
+        <img src={showProject.imgURL} alt={showProject.name}/>
+        </div>
+          <div className="show-description">
+          <h4>Project Description</h4>
+          {showProject.description}
+        </div>
+        <div className="show-description- techstack">
+          <h4>Project Description</h4>
+          {showProject.quote}
+        </div>
+        <div className="portfolio-links">
+          <a href={showProject.link}>Netlify Deployed Link</a><br/>
+          <a href={showProject.gitHub} className="fa fa-github">Github Repo</a>
+        </div>
+        
       </div>
       </Layout>
   )
