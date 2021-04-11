@@ -7,7 +7,7 @@ const ProjectCards = (props) => {
   const CARDS = projectData
     .reverse()
     .map((project, index) =>
-      index < 8 ? (
+      index < 30 ? (
         <ProjectCard
           id={project.id}
           name={project.name}

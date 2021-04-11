@@ -42,6 +42,16 @@
 
 }
 
+.all-projects-header {
+  display: flex; 
+  justify-content: center;
+}
+
+.search {
+  display: flex; 
+  justify-content: center;
+}
+
 @media (max-width: 500px) {
   .project {
       width: 100%;
