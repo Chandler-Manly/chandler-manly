@@ -5,7 +5,7 @@
     "description": "ON-DEMAND-SOMM is a responsive, React, and Ruby on Rails web application that provides a platform for wine enthusiasts of all levels to log comprehensive tasting notes and keep track of their beverage experiences. The public view of the site includes the landing page, complete wine list, and our latest blog post. Once registered and logged in, the user will have full access to the user dashboard enabling cellar management, and full CRUD capabilities on their contributed wines. Secondarily, this platform offers a cellar management tracker where clients can keep track of their preciously stored vino collection. Deployed via Netlify.",
     "gitHub": "https://github.com/Chandler-Manly/on-demand-somm",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1617323423/logo_trukob.png",
-    "technical": "ON-DEMAND-SOMM is a responsive, React, and Ruby on Rails web application that provides a platform for wine enthusiasts of all levels to log comprehensive tasting notes and keep track of their beverage experiences. The public view of the site includes the landing page, complete wine list, and our latest blog post. Once registered and logged in, the user will have full access to the user dashboard enabling cellar management, and full CRUD capabilities on their contributed wines. Secondarily, this platform offers a cellar management tracker where clients can keep track of their preciously stored vino collection.",
+    "technical": "Designed, developed, and deployed front and back-end. ON-DEMAND-SOMM is a responsive, React, and Ruby on Rails web application that provides a platform for wine enthusiasts of all levels to log comprehensive tasting notes and keep track of their beverage experiences. The public view of the site includes the landing page, complete wine list, and our latest blog post. Once registered and logged in, the user will have full access to the user dashboard enabling cellar management, and full CRUD capabilities on their contributed wines. Secondarily, this platform offers a cellar management tracker where clients can keep track of their preciously stored vino collection.",
     "languages": "JavaScript, React, Ruby, Ruby on Rails, CSS, HTML, Axios, React-Router-Dom, Auth, BCrypt, JWT",
     "id": "1"
   },
@@ -272,8 +272,9 @@
 
     "id": "26"
   },
+
   {
-    "name": "grossdoor",
+    "name": "Data CapStone Project: 911 Calls: Kaggle",
     "link": "",
     "description": "",
     "gitHub": "",
@@ -281,7 +282,7 @@
     "technical": "",
     "languages": "React",
 
-    "id": "24"
+    "id": "26"
   },
   {
     "name": "COMING SOON! Data CapStone Project: Finance Data",

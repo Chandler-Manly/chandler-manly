@@ -22,24 +22,19 @@ export default function Project(props) {
         </div>
         <div className="show-description-techstack">
           <h2>Technical</h2>
-          <div>
-          {showProject.technical}
-          </div>
-            <div>
-            Languages & Frameworks: {showProject.languages}
-        </div>
+          <div>{showProject.technical}</div>
+          <div>Languages & Frameworks: {showProject.languages}</div>
         </div>
 
         <div className="show-project-links">
           <h2>Portfolio Links</h2>
-          <a href={showProject.link}>Deployed Link</a>
+          <a href={showProject.link}>View Live Site</a>
           <br />
           <a href={showProject.gitHub} className="fa fa-github">
-            Github Repo
+            View Code
           </a>
         </div>
       </div>
-      
     </Layout>
   );
 }

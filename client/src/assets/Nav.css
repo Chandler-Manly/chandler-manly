@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
 
 nav {
-    flex: 1;
-    position: fixed;
+display:flex;
+justify-content: space-between;
+
+    /* position: fixed; */
     width: 100%;
-    background-color: black;
+    background-image: linear-gradient(rgb(46, 44, 44), black);
     color: white;
     z-index: 1;
     top: 0;
     left: 0;
+    
 }
 
 .nav {
@@ -38,19 +41,19 @@ nav {
     transform: scale(1.004);
 }
 
-.links {
+.nav-link {
     flex: 2;
     max-width: 30vw;
     align-items: center;
-    font-size: 24px;
+    font-size: 100px;
     display: flex;
-    color: white;
-
+color: aquamarine
   }
 
-.link {
+  .nav-link {
 display: flex;
   flex: 1;
+
 }
 
 a {
@@ -59,21 +62,14 @@ a {
     font-size: 20px;
   }
 
+.company-logo{
+  width:100px;
+  height:100px;
+  margin-left: 30px;
+}
+
 @media (max-width: 500px) {
     nav {
         width: 98%;
-    }
-    .logo {
-        max-width: 50%;
-    }
-    .links {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        max-width: 50vw;
-    }
-    .link {
-        padding: 3px;
     }
 }
