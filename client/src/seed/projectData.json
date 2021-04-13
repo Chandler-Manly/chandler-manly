@@ -54,9 +54,9 @@
   },
   {
     "name": "Countries and Maps",
-    "link": "",
+    "link": "https://git.generalassemb.ly/Chandler-Manly/async-await-lab",
     "description": "Collaboration* fetch movie data from the OMDB API and render it in the browser structure your endpoint for your axios calls A text input + button for searching OMDB by movie title(provided in the starter code. Display a list of movies returned by the search api call. At least the movie's title and poster should be visible. Feel free to include movie year as well. Incorporate CSS flexbox into your page.",
-    "gitHub": "",
+    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/async-await-lab",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618099592/Turquoise_Earth_Icon_Environment_Logo_dtfzie.png",
     "technical": "",
     "languages": "HTML, CSS, JavaScript",
@@ -112,7 +112,7 @@
     "link": "",
     "description": "",
     "gitHub": "",
-    "imgURL": "",
+    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618357518/Simple_Brand_Initials_Logo_Mark_facyxh.png",
     "technical": "",
     "languages": "HTML, CSS, JavaScript",
 
@@ -123,7 +123,7 @@
     "link": "",
     "description": "",
     "gitHub": "",
-    "imgURL": "",
+    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618357518/Simple_Brand_Initials_Logo_Mark_facyxh.png",
     "technical": "",
     "languages": "HTML, CSS, JavaScript",
 
@@ -153,10 +153,10 @@
   },
   {
     "name": "Color Switcher",
-    "link": "",
+    "link": "https://git.generalassemb.ly/Chandler-Manly/color-switcher",
     "description": "The finished app should switch the color of the #color-panel box to the color represented by each button, and change the color of the text to the value of the input that has type=color",
-    "gitHub": "",
-    "imgURL": "",
+    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/color-switcher",
+    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618357518/Simple_Brand_Initials_Logo_Mark_facyxh.png",
     "technical": "",
     "languages": "React",
 
@@ -167,7 +167,7 @@
     "link": "",
     "description": "",
     "gitHub": "",
-    "imgURL": "",
+    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618357518/Simple_Brand_Initials_Logo_Mark_facyxh.png",
     "technical": "",
     "languages": "React",
 
@@ -175,44 +175,44 @@
   },
   {
     "name": "ChandlerManly.com",
-    "link": "",
-    "description": "",
-    "gitHub": "",
+    "link": "https://chandlermanly.com/",
+    "description": "Personal Website using React for the front-end and flexbox for styling.",
+    "gitHub": "https://github.com/Chandler-Manly/chandler-manly",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618102635/Charcoal_Bordered_Photography_Logo_avwo5y.png",
-    "technical": "",
+    "technical": "React",
     "languages": "React",
 
     "id": "17"
   },
   {
     "name": "Blog App",
-    "link": "",
-    "description": "collaboration",
-    "gitHub": "",
+    "link": "https://github.com/snqureshi/blog-app",
+    "description": "Collaboration: my contribution was on the create post page functionality and styling. Deployed via netlify.",
+    "gitHub": "https://github.com/snqureshi/blog-app",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618101865/Minimalist_Circle_Healthy_Cafe_Logo_3_oudq6k.png",
-    "technical": "",
+    "technical": "MongoDB and React",
     "languages": "React",
 
     "id": "18"
   },
   {
     "name": "React Wishlist",
-    "link": "",
-    "description": "",
-    "gitHub": "",
+    "link": "https://git.generalassemb.ly/Chandler-Manly/wishlist",
+    "description": "Followed Adobe XD design, handleChange to create new items, core functionality is wishlist items can move up/down. Styled using flexbox.",
+    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/wishlist",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618102984/Screen_Shot_2021-04-10_at_9.02.12_PM_duhobe.png",
-    "technical": "",
-    "languages": "React",
+    "technical": "Followed React Architecture lab for file structure. Backend deployed via Heroku.",
+    "languages": "JavaScript, React",
 
     "id": "19"
   },
   {
     "name": "ProductsApp",
-    "link": "",
-    "description": "",
-    "gitHub": "",
+    "link": "https://git.generalassemb.ly/Chandler-Manly/react-exercise",
+    "description": "Full CRUD for Products App. Deployed via Netlify.",
+    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/react-exercise",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618102198/Minimalist_Circle_Healthy_Cafe_Logo_5_sbpdct.png",
-    "technical": "",
+    "technical": "Styled using flexbox. Deployed.",
     "languages": "React",
 
     "id": "20"
@@ -222,7 +222,7 @@
     "link": "",
     "description": "",
     "gitHub": "",
-    "imgURL": "",
+    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618357518/Simple_Brand_Initials_Logo_Mark_facyxh.png",
     "technical": "",
     "languages": "React",
 
@@ -233,7 +233,7 @@
     "link": "",
     "description": "",
     "gitHub": "",
-    "imgURL": "",
+    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618357518/Simple_Brand_Initials_Logo_Mark_facyxh.png",
     "technical": "",
     "languages": "React",
 
@@ -244,43 +244,41 @@
     "link": "",
     "description": "",
     "gitHub": "",
-    "imgURL": "",
+    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618357518/Simple_Brand_Initials_Logo_Mark_facyxh.png",
     "technical": "",
     "languages": "React",
 
     "id": "27"
   },
   {
-    "name": "recipes",
-    "link": "",
-    "description": "",
-    "gitHub": "",
+    "name": "Oui Chef! Recipes A La Carte",
+    "link": "https://git.generalassemb.ly/Chandler-Manly/react-router-airtable-lab",
+    "description": "A web-application where users can contribute personalized recipes.",
+    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/react-router-airtable-lab",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618101006/Minimalist_Circle_Healthy_Cafe_Logo_1_tkollo.png",
-    "technical": "",
+    "technical": "Airtable for back-end DB, full CRUD, React, components and life cycle methods, props and state, React Router",
     "languages": "React",
-
     "id": "23"
   },
   {
-    "name": "smoothies",
-    "link": "",
-    "description": "",
-    "gitHub": "",
+    "name": "Healthy Smoothies",
+    "link": "https://git.generalassemb.ly/Chandler-Manly/sapphire-smoothies",
+    "description": "Lesson: Sapphire Smoothie Bar",
+    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/sapphire-smoothies",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618100818/Minimalist_Circle_Healthy_Cafe_Logo_suw4fg.png",
-    "technical": "",
-    "languages": "React",
-
+    "technical": "Full CRUD web application. ",
+    "languages": "React, react-router-dom, axios",
     "id": "26"
   },
 
   {
-    "name": "Data CapStone Project: 911 Calls: Kaggle",
+    "name": "COMING SOON! Data CapStone Project: 911 Calls: Kaggle",
     "link": "",
     "description": "",
     "gitHub": "",
-    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618100667/Beige_and_Black_Purely_Typographic_Psychiatric_Doctor_Logo_1_pomthk.png",
+    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618357518/Simple_Brand_Initials_Logo_Mark_facyxh.png",
     "technical": "",
-    "languages": "React",
+    "languages": "Python",
 
     "id": "26"
   },
