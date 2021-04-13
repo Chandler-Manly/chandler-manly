@@ -1,75 +1,71 @@
-@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
 
 nav {
-display:flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    /* position: fixed; */
-    width: 100%;
-    background-image: linear-gradient(rgb(46, 44, 44), black);
-    color: white;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    
+  /* position: fixed; */
+  width: 100%;
+  background-image: linear-gradient(rgb(46, 44, 44), black);
+  color: white;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 .nav {
-    display: flex;
-    padding: 20px 0;
-    margin-left: -2px;
-    margin-right: -2px;
-    margin-top: -2px;
-    box-shadow: 1px 1px 1px .3px #CECECE;
-    width: 100%;
-    
-  }
-  
-  .logo {
+  display: flex;
+  padding: 20px 0;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -2px;
+  box-shadow: 1px 1px 1px 0.3px #cecece;
+  width: 100%;
+}
+
+.logo {
   color: white;
-    font-family: 'Kalam', cursive;
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-    letter-spacing: -3px;
-    flex: 1;
-    max-width: 30vw;
-    transition: 250ms all;
+  font-family: "Kalam", cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: -3px;
+  flex: 1;
+  max-width: 30vw;
+  transition: 250ms all;
 }
 
 .logo:hover {
-    transform: scale(1.004);
+  transform: scale(1.004);
 }
 
 .nav-link {
-    flex: 2;
-    max-width: 30vw;
-    align-items: center;
-    font-size: 100px;
-    display: flex;
-color: aquamarine
-  }
+  flex: 2;
+  max-width: 30vw;
+  align-items: center;
+  font-size: 40px;
+  display: flex;
+}
 
-  .nav-link {
-display: flex;
+.nav-link {
+  display: flex;
   flex: 1;
-
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-  }
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
 
-.company-logo{
-  width:100px;
-  height:100px;
+.company-logo {
+  width: 100px;
+  height: 100px;
   margin-left: 30px;
 }
 
 @media (max-width: 500px) {
-    nav {
-        width: 98%;
-    }
+  nav {
+    width: 98%;
+  }
 }
