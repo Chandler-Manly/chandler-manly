@@ -1,6 +1,7 @@
 .home {
-display: flex;
-justify-content: center;
+  background-color: #ECE9E6
+/* 
+  background-color: #556889; */
 }
 
 .home-screen {
@@ -19,6 +20,7 @@ justify-content: center;
   height: 250px;
   animation-duration: 3s;
   animation-name: slidein;
+  background-color: #6D9EB0
 }
 
 
@@ -31,3 +33,4 @@ justify-content: center;
     margin-left: 0%;
   }
 }
+

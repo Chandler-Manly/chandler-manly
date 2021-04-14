@@ -1,6 +1,13 @@
 .project-details{
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 20px;
 }
 
 .show-image{
@@ -14,3 +21,9 @@
   .show-project-links {
     color:black;
   }
+
+  button{
+margin-top: 20px;
+    width: 100px;
+  }
+

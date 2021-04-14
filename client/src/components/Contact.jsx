@@ -30,12 +30,10 @@ export default function ContactInfo() {
           <a href="https://github.com/Chandler-Manly" className="fa fa-github">
             Github
           </a>
-          Check out my SWE resume{" "}
           <a
             href="https://drive.google.com/file/d/1I47NcD1EQ7PrvPwGK92XgPUsM6_blhpQ/view"
             className="resume"
-          >
-            : HERE
+          >Resume
           </a>
         </div>
       </div>

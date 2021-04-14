@@ -4,6 +4,8 @@ import Layout from "../components/shared/Layout";
 import projectData from "../seed/projectData.json";
 import "../assets/ProjectDetails.css";
 
+
+
 export default function Project(props) {
   const params = useParams();
 
@@ -34,6 +36,7 @@ export default function Project(props) {
             View Code
           </a>
         </div>
+
       </div>
     </Layout>
   );
