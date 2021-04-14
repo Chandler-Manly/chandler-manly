@@ -11,7 +11,7 @@ export default function Project(props) {
 
   return (
     <Layout>
-      <div>
+      <div className="project-details">
         <h3>{showProject.name} Project Details</h3>
         <div className="show-image">
           <img src={showProject.imgURL} alt={showProject.name} />
@@ -23,7 +23,7 @@ export default function Project(props) {
         <div className="show-description-techstack">
           <h2>Technical</h2>
           <div>{showProject.technical}</div>
-          <div>Languages & Frameworks: {showProject.languages}</div>
+          <div><h2>Languages & Frameworks</h2> {showProject.languages}</div>
         </div>
 
         <div className="show-project-links">

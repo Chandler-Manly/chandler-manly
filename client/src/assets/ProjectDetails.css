@@ -1,4 +1,16 @@
-.show-project-links{
-  color:black;
-  background-color: aquamarine;
+.project-details{
+  display: flex;
+  justify-content: center;
 }
+
+.show-image{
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px 5px 5px 5px gray;
+  
+  
+  }
+
+  .show-project-links {
+    color:black;
+  }
