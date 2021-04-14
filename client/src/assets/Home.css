@@ -1,10 +1,6 @@
-.home {
-  background-color: #ECE9E6
-/* 
-  background-color: #556889; */
-}
 
-.home-screen {
+
+/* .home-screen {
 
 display:flex;
 flex-direction: column;
@@ -32,5 +28,5 @@ justify-content: center;
   to {
     margin-left: 0%;
   }
-}
+} */
 

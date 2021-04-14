@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/Home.css';
-import ProjectCards from '../components/ProjectCards';
+import Projects from '../components/Projects';
 import Layout from '../components/shared/Layout';
 
 const Home = () => {
@@ -32,7 +32,7 @@ const Home = () => {
         Cloud infrastructure, machine learning, artificial intelligence, big data, Python, A/B testing, and SaaS
         </div> */}
       <div className="home">
-        <ProjectCards />
+        <Projects />
         </div>
         </div>
     </Layout>

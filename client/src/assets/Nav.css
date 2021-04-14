@@ -4,7 +4,6 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* background-image: linear-gradient(rgb(80, 112, 172), rgb(22, 57, 173)); */
   color: white;
   z-index: 1;
   top: 0;
@@ -15,21 +14,13 @@ background-color: #111E26
 
 .nav {
   display: flex;
-  padding: 20px 0;
-  margin-left: -2px;
-  margin-right: -2px;
-  margin-top: -2px;
-  box-shadow: 1px 1px 1px 0.3px #cecece;
-  width: 100%;
+   width: 100%;
 }
 
 .logo {
-  /* color: white; */
-  font-family: "Kalam", cursive;
   text-align: center;
   font-weight: bold;
   font-size: 40px;
-  letter-spacing: -3px;
   flex: 1;
   transition: 250ms all;
 }
@@ -39,20 +30,28 @@ background-color: #111E26
 }
 
 .nav-link {
-  /* flex: 2; */
-  /* max-width: 30vw; */
-  align-items: center;
-  font-size: 40px;
-  display: flex;
-  justify-content: space-around;
-  margin-right: 20px;
-  background-color: #ECE9E6
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
 }
+
+.nav-link a:hover {
+  border-bottom: 3px solid red;
+}
+
+.nav-link a.active {
+  border-bottom: 3px solid red;
+}
+
 
 
 a {
   text-decoration: none;
-  /* font-size: 20px; */
 }
 
 .company-logo {

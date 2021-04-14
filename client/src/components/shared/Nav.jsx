@@ -8,15 +8,15 @@ import { lightTheme, darkTheme } from "../Themes";
 
 
 const Nav = () => {
-  const [theme, setTheme] = useState('light');
-  const themeToggler = () => {
-    theme === 'light' ? setTheme('dark') : setTheme('light')
-}
+//   const [theme, setTheme] = useState('light');
+//   const themeToggler = () => {
+//     theme === 'light' ? setTheme('dark') : setTheme('light')
+// }
  
   return (
-    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
-    <>
-    <GlobalStyles/>
+    // <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+    // <>
+    // <GlobalStyles/>
 
     <nav>
       <div className="nav">
@@ -31,12 +31,12 @@ const Nav = () => {
           <NavLink className="nav-link" to="/contact">
           Connect
           </NavLink>
-          <button onClick={themeToggler}>Dark Mode</button>
+          {/* <button onClick={themeToggler}>Dark Mode</button> */}
           </div>
         </div>
     </nav>
-    </>
-      </ThemeProvider>
+    // </>
+    //   </ThemeProvider>
   )
 }
 

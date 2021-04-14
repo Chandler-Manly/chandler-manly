@@ -14,6 +14,7 @@ export default function Project(props) {
   return (
     <Layout>
       <div className="project-details">
+        
         <h3>{showProject.name} Project Details</h3>
         <div className="show-image">
           <img src={showProject.imgURL} alt={showProject.name} />
