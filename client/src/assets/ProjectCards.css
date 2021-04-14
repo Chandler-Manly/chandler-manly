@@ -1,5 +1,6 @@
-.cards {
+/* .cards {
   display: flex;
+  overflow: wrap;
   overflow-x: scroll;
 }
 
@@ -8,6 +9,14 @@
   color: rgb(56, 55, 55);
   padding: 10px;
   margin-top: 40px;
+} */
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 500px) {

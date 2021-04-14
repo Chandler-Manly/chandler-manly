@@ -1,5 +1,4 @@
 .home {
-  background-color: whitesmoke;
 display: flex;
 justify-content: center;
 }
@@ -15,24 +14,20 @@ justify-content: center;
   display: flex;
   justify-content: center;
   padding-top: 50px;
-  border-radius: 50%;
+  border-radius: 75%;
   width: 250px;
   height: 250px;
-}
-
-/* div {
   animation-duration: 3s;
   animation-name: slidein;
 }
 
+
 @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%;
   }
 
   to {
     margin-left: 0%;
-    width: 100%;
   }
-} */
+}

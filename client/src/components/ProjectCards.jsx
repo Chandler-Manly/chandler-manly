@@ -19,7 +19,7 @@ const ProjectCards = (props) => {
 
   return (
     <div>
-      <div className="latest">RECENT WORK</div>
+      {/* <div className="latest">RECENT WORK</div> */}
       <div className="cards">{CARDS}</div>
     </div>
   );

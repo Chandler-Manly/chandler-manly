@@ -3,10 +3,8 @@
 nav {
   display: flex;
   justify-content: space-between;
-
-  /* position: fixed; */
   width: 100%;
-  background-image: linear-gradient(rgb(80, 112, 172), rgb(22, 57, 173));
+  /* background-image: linear-gradient(rgb(80, 112, 172), rgb(22, 57, 173)); */
   color: white;
   z-index: 1;
   top: 0;
@@ -31,7 +29,6 @@ nav {
   font-size: 40px;
   letter-spacing: -3px;
   flex: 1;
-  max-width: 30vw;
   transition: 250ms all;
 }
 
@@ -40,28 +37,30 @@ nav {
 }
 
 .nav-link {
-  flex: 2;
-  max-width: 30vw;
+  /* flex: 2; */
+  /* max-width: 30vw; */
   align-items: center;
   font-size: 40px;
   display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
 }
 
-.nav-link {
-  display: flex;
-  flex: 1;
-}
 
 a {
   text-decoration: none;
-  color: black;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 .company-logo {
   width: 100px;
   height: 100px;
   margin-left: 30px;
+}
+
+button{
+  border-radius: 50%;
+  height:40px;
 }
 
 @media (max-width: 500px) {

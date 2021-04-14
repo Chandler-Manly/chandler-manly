@@ -13,7 +13,6 @@ const Search = (props) => {
         type="text"
         autoFocus
       />
-      <button type="submit" className="fa fa-search"></button>
     </form>
   );
 };
