@@ -1,6 +1,11 @@
-.contact-form{
+.contact-form {
   display: flex;
-  /* flex-direction: column; */
-/* justify-content: center; */
+  flex-direction: column;
+  padding: 20px;
 }
 
+.form-group-one{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}

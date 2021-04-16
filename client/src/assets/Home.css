@@ -1,32 +1,12 @@
+.athlete{
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  opacity: .7;
+  border-radius: 25px;
+  padding: 20px;
 
 
-/* .home-screen {
-
-display:flex;
-flex-direction: column;
-justify-content: center;
 }
 
-.img {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  border-radius: 75%;
-  width: 250px;
-  height: 250px;
-  animation-duration: 3s;
-  animation-name: slidein;
-  background-color: #6D9EB0
+.athlete:hover{
+  opacity: 1;
 }
-
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-  }
-} */
-
