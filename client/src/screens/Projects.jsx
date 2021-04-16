@@ -10,10 +10,14 @@ export default function Projects(props) {
   const [projects, setProjects] = useState(projectData);
  
   return (
-    <Layout>
+    <Layout backgroundColor={"#212a2f"}>
         <div className="portfolio-header">
-          "Art is never finished, only abandoned"
+        "Art is never finished, only abandoned"
         </div>
+      <div className="portfolio">
+        Open Source Projects
+      </div>
+      <div></div>
       <div className="project-cards">
         {projects.map((project) => (
           <div className="flip-card">

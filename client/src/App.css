@@ -2,7 +2,8 @@
  display: flex;
  justify-content: center;
   transition: 250ms all;
-  background-color: aquamarine;
+  background-image: linear-gradient(180deg, #212a2f,rgb(77, 85, 89));
+
 
 }
 

@@ -4,6 +4,7 @@ import "../../assets/Footer.css";
 
 const Footer = () => (
   <footer>
+  
   </footer>
 );
 

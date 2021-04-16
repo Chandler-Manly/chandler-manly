@@ -12,7 +12,7 @@ export default function Project(props) {
   const showProject = projectData.find((project) => params.id === project.id);
 
   return (
-    <Layout>
+    <Layout backgroundColor={"rgb(207, 250, 218)"}>
       <div className="project-details">
         
         <div className="project-details-name">{showProject.name} Project Details</div>
@@ -26,17 +26,17 @@ export default function Project(props) {
         <div className="show-description-techstack">
           <h2>Technical</h2>
           <div>{showProject.technical}</div>
-          <div><h2>Languages & Frameworks</h2> {showProject.languages}</div>
+          <div><h2>Languages & Frameworks</h2>
+            <div className="show-project-languages">
+            {showProject.languages}</div>
         </div>
-
         <div className="show-project-links">
           <h2>Portfolio Links</h2>
           <a href={showProject.link}>View Live Site</a>
-          <br />
-          <a href={showProject.gitHub} className="fa fa-github">
-            View Code
-          </a>
-        </div>
+          <a href={showProject.gitHub} className="fa fa-github">View Code</a>
+          </div>
+          </div>
+
 
       </div>
     </Layout>

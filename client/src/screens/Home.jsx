@@ -4,11 +4,11 @@ import Layout from "../components/shared/Layout";
 
 const Home = () => {
   return (
-    <Layout>
+    <Layout backgroundColor={"rgb(207, 250, 218)"}>
       <div className="home">
-        <div className="athlete">
+        {/* <div className="athlete">
         <img src="https://res.cloudinary.com/dygk00sc0/image/upload/v1618529762/8i6bcuq3w789iu1e_b9vfsg.jpg" alt="athlete"/>
-        </div>
+        </div> */}
       </div>
       <div>
         <div className="home-text">

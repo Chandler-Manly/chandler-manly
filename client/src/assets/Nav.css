@@ -1,16 +1,13 @@
-nav {
-  flex: 1;
+ nav {
   position: fixed;
   width: 100%;
-  background-color: white;
-  z-index: 1;
+  background-color: whitesmoke;
   top: 0;
   left: 0;
 }
 
 .nav {
   display: flex;
-  padding: 20px 0;
   margin-left: -2px;
   margin-right: -2px;
   margin-top: -2px;
@@ -25,7 +22,6 @@ nav {
   font-size: 34px;
   letter-spacing: -3px;
   flex: 1;
-  max-width: 30vw;
   transition: 250ms all;
 }
 
@@ -34,18 +30,35 @@ nav {
 }
 
 .links {
-  flex: 2;
-  max-width: 30vw;
   align-items: center;
   font-size: 24px;
   display: flex;
-}
-
-.link {
-  flex: 1;
+  text-decoration: none;
 }
 
 a {
+  color: #212a2f;
+  text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #212a2f;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
 }

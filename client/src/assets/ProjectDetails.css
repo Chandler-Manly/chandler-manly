@@ -1,12 +1,20 @@
 .project-details-name {
-  color: #111e26;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
   font-weight: 600;
   font-size: 48px;
+  margin-bottom: 30px;
 }
 
+.show-image{
 
-.project-details {
+  display: flex;
+  justify-content: center; 
+opacity: .8;
 }
 
-.show-description{
+.show-image:hover{
+  opacity: 1;
 }
+

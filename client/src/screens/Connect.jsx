@@ -1,9 +1,10 @@
 import React from "react";
 import Layout from "../components/shared/Layout";
+import '../assets/Connect.css'
 
 export default function Connect() {
   return (
-    <Layout>
+    <Layout backgroundColor={"rgb(207, 250, 218)"}>
       <div>
         <div className="headshot">
           <img
