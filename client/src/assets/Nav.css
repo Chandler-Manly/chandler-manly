@@ -1,7 +1,8 @@
- nav {
+nav {
   position: fixed;
   width: 100%;
-  background-color: whitesmoke;
+  background-image: linear-gradient(180deg, #212a2f, rgb(77, 85, 89));
+  color: whitesmoke;
   top: 0;
   left: 0;
 }
@@ -11,12 +12,13 @@
   margin-left: -2px;
   margin-right: -2px;
   margin-top: -2px;
-  box-shadow: 1px 1px 1px .3px #CECECE;
+  box-shadow: 1px 1px 1px 0.3px #cecece;
   width: 100%;
 }
 
 .logo {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   font-weight: bold;
   font-size: 34px;
@@ -37,16 +39,15 @@
 }
 
 a {
-  color: #212a2f;
+  color: whitesmoke;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
-  
   display: inline-block;
   padding: 15px 20px;
   position: relative;
 }
-a:after {    
+a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -54,11 +55,11 @@ a:after {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #212a2f;
+  background: whitesmoke;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after { 
-  width: 100%; 
-  left: 0; 
+a:hover:after {
+  width: 100%;
+  left: 0;
 }

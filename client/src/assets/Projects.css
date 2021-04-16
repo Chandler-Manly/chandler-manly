@@ -1,12 +1,21 @@
 .portfolio-header, .portfolio{
-  color: whitesmoke;
+  color: #212a2f;
   font-weight: 600;
   font-size: 30px;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
-  
+  margin-top: 40px;
 }
+
+.portfolio{
+  color: #212a2f;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
 
 .project-cards {
   display: flex;
@@ -53,10 +62,9 @@
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #212a2f;
   color: white;
   transform: rotateY(180deg);
-  flex-wrap: wrap;
   max-width: 350px;
 }
 
@@ -65,5 +73,6 @@ img{
   justify-content: center;
   width: 300px;
   height: 250px;
-  background-color: antiquewhite;
+  background-color: whitesmoke;
+  box-shadow: 10px 5px 5px #212a2f;
 }
