@@ -1,19 +1,16 @@
 import React from "react";
 import "../assets/Home.css";
 import Layout from "../components/shared/Layout";
-
+import {Link} from 'react-router-dom';
 const Home = () => {
   return (
-    <Layout backgroundColor={"rgb(207, 250, 218)"}>
+    <Layout>
       <div className="home">
-        {/* <div className="athlete">
-        <img src="https://res.cloudinary.com/dygk00sc0/image/upload/v1618529762/8i6bcuq3w789iu1e_b9vfsg.jpg" alt="athlete"/>
-        </div> */}
+      <div className="welcome-message">
+        Salutations! I'm <div className="chandler">Chandler</div> and I am a Full Stack Software Engineer.
       </div>
-      <div>
-        <div className="home-text">
-        </div>
-        </div>
+      <Link to='/portfolio'><div className="view-portfolio">View Portfolio</div></Link>
+      </div>
     </Layout>
   );
 };

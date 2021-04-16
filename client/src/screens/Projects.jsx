@@ -10,7 +10,7 @@ export default function Projects(props) {
   const [projects, setProjects] = useState(projectData);
  
   return (
-    <Layout backgroundColor={"#212a2f"}>
+    <Layout>
         <div className="portfolio-header">
         "Art is never finished, only abandoned"
         </div>

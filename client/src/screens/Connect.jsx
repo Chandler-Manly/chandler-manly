@@ -4,15 +4,15 @@ import '../assets/Connect.css'
 
 export default function Connect() {
   return (
-    <Layout backgroundColor={"rgb(207, 250, 218)"}>
+    <Layout backgroundColor={"#212a2f"}>
       <div>
-        <div className="headshot">
+        {/* <div className="headshot">
           <img
             className="img"
             src="https://res.cloudinary.com/dygk00sc0/image/upload/v1618234955/Howard_2373_wn6qrg.jpg"
             alt="Chandler-Manly"
           />
-        </div>
+        </div> */}
         <h3>About Me</h3>
         <div className="about-me">
           Greetings, I'm <div className="my-name-is-neo">Chandler Manly</div>. I
@@ -22,8 +22,7 @@ export default function Connect() {
           about building great products, meaningful relationships, and
           delivering world class experiences.
         </div>
-
-        <h3>Contact Form</h3>
+<h3>Contact Form</h3>
         <div className="contact-form">
           <form
             method="POST"
@@ -44,27 +43,8 @@ export default function Connect() {
             </div>
           </form>
 
-          <div className="follow-us-links">
-            Connect:
-            <a
-              href="https://www.linkedin.com/in/chandler-manly/"
-              className="fa fa-linkedin"
-            >
-              Linkedin
-            </a>
-            <a
-              href="https://github.com/Chandler-Manly"
-              className="fa fa-github"
-            >
-              Github
-            </a>
-            {/* <a
-          href="https://drive.google.com/file/d/1I47NcD1EQ7PrvPwGK92XgPUsM6_blhpQ/view"
-          className="resume"
-        >
-            Resume
-        </a> */}
-          </div>
+
+
         </div>
       </div>
     </Layout>

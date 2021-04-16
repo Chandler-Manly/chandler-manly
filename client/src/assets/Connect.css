@@ -1,11 +1,29 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  width: 500px;
 }
 
 .form-group-one{
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+.headshot{
+  display: flex;
+  justify-content: center;
+  opacity: .9;
+
+
+}
+
+.headshot:hover{
+  opacity:1;
+}
+
+.my-name-is-neo{
+  display: inline;
+  color: whitesmoke;
+  font-weight: 600;
 }

@@ -1,14 +1,16 @@
 .layout {
-  height: 100vh;
+  height: 900px;
   display: flex;
   flex-direction: column;
+  /* background-image: linear-gradient(180deg, #212a2f,rgb(77, 85, 89)); */
+
 
 }
 
 .layout-children {
   flex: 2;
   padding: 100px;
-  background-image: linear-gradient(180deg, #212a2f,rgb(77, 85, 89));
+  /* background-image: linear-gradient(180deg, #212a2f,rgb(77, 85, 89)); */
 
   }
 
