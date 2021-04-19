@@ -34,3 +34,48 @@ transform:scale(1.05)
   display: inline;
   color: #212a2f;
 }
+
+@media only screen and (max-width: 375px) {
+  
+
+.home{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 375px;
+}
+
+.introductions{
+  max-width: 360px;
+}
+
+.welcome-message{
+  margin-top: 100px;
+  font-size: 40px;
+  color: #212a2f;
+  width: 360px;
+}
+
+.view-portfolio{
+  border: 2px solid #212a2f;
+  background-color: #212a2f;
+  color: whitesmoke;
+  padding: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.view-portfolio:hover{
+background-color: whitesmoke;
+color: #212a2f;
+transform:scale(1.05)
+
+
+}
+
+.chandler{
+  display: inline;
+  color: #212a2f;
+}
+}

@@ -15,7 +15,7 @@ const Home = () => {
         <Link to="/portfolio">
           <div className="view-portfolio">VIEW PORTFOLIO</div>
         </Link>
-        <div>
+        <div className="introductions">
           <h3>Finance, Entrepreneurship, and Technology</h3>
           I recently completed General Assembly's Software Engineering Immersive
           program. During this twelve week boot camp, I learned programming
