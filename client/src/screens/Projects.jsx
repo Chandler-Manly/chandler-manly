@@ -23,8 +23,7 @@ OPEN SOURCE PROJECTS      </div>
               </div>
 
               <div className="flip-card-back">
-                <h1>{project.name}</h1>
-                <p>{project.onesentencedescription}</p>
+                <div className="project-name"><h3>{project.name}</h3></div>
                 <Link to={`/projects/${project.id}`}>
                   <p>View Details</p>
                   </Link>
@@ -33,9 +32,6 @@ OPEN SOURCE PROJECTS      </div>
           </div>
         ))}
         <div>
-        {/* <div className="portfolio-header">
-            "Art is never finished, only abandoned" -Leondardo Da Vinci
-        </div> */}
         </div>
       </div>
       </Layout>

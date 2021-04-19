@@ -8,6 +8,7 @@ const Home = () => {
       <div className="home">
         <div className="welcome-message">
           Salutations! I'm <div className="chandler">Chandler</div> and I am a
+          
           Full-Stack Software Engineer.
         </div>
 
@@ -20,10 +21,8 @@ const Home = () => {
           program. During this twelve week boot camp, I learned programming
           languages and frameworks, computer science concepts, and agile
           methodology. More importantly, I met and had the privilege to work
-          with some truly inspiring, saavy, and kind people. A few notable
-          highlights include:
-          <br />
-          <br />
+          with some truly inspiring, saavy, and kind people.
+          <h4>A few notable highlights include:</h4>
           <li>Drawing a blank during my first whiteboard challenge and subsequently spending the weekend on codewars</li>
           <li>Referring to Tom Brady when asked, "What's a MVP?" then learning firsthand how to <b>design, develop, and deploy</b> three independent projects and one collaborative</li>
           <li>
