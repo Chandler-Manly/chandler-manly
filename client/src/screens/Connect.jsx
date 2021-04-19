@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/shared/Layout";
-import '../assets/Connect.css'
+import "../assets/Connect.css";
 
 export default function Connect() {
   return (
@@ -13,7 +13,7 @@ export default function Connect() {
             alt="Chandler-Manly"
           />
         </div> */}
-        <h3>About Me</h3>
+        <h3>ABOUT ME</h3>
         <div className="about-me">
           Greetings, I'm <div className="my-name-is-neo">Chandler Manly</div>. I
           am a determined, analytical, and adaptable Product Manager with seven
@@ -22,7 +22,7 @@ export default function Connect() {
           about building great products, meaningful relationships, and
           delivering world class experiences.
         </div>
-<h3>Contact Form</h3>
+        <h3>MEDIA INQUIRIES:</h3>
         <div className="contact-form">
           <form
             method="POST"
@@ -42,9 +42,6 @@ export default function Connect() {
               </div>
             </div>
           </form>
-
-
-
         </div>
       </div>
     </Layout>

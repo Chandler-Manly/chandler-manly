@@ -8,7 +8,7 @@ const Nav = () => {
         <nav>
         <div className="nav">
           <div className="logo">
-                <NavLink to='/'>H. Chandler Manly</NavLink>
+                <NavLink to='/'>H. Chandler Manly </NavLink>
                 </div>   
           <div className="links">
                     {/* <a href="/" className="fa fa-home"></a> */}

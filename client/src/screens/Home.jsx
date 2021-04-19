@@ -12,7 +12,7 @@ const Home = () => {
         </div>
 
         <Link to="/portfolio">
-          <div className="view-portfolio">View Portfolio</div>
+          <div className="view-portfolio">VIEW PORTFOLIO</div>
         </Link>
         <div>
           <h3>Finance, Entrepreneurship, and Technology</h3>
@@ -24,11 +24,10 @@ const Home = () => {
           highlights include:
           <br />
           <br />
-          <li>Drawing a blank during my first whiteboard challenge</li>
-          <li>Referring to Tom Brady when asked, "What's a MVP?"</li>
+          <li>Drawing a blank during my first whiteboard challenge and subsequently spending the weekend on codewars</li>
+          <li>Referring to Tom Brady when asked, "What's a MVP?" then learning firsthand how to design, develop, and deploy three independent projects and one collaborative</li>
           <li>
-            Sharing my favorite breakfast is an ultimate smoked Salmon bagel and
-            bottomless cortados
+            Sharing my favorite breakfast is an ultimate smoked Salmon bagel and cortados
           </li>
         </div>
       </div>

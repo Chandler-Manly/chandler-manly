@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   width: 500px;
+  border: 2px solid lightgray;
+  box-shadow: 5px 5px 5px #212a2f;
 }
 
 .form-group-one{
@@ -29,5 +31,25 @@
 }
 
 .submit-button{
+  display:flex;
+  justify-content: center;
   margin-top: 10px;
+}
+
+button{
+  background-color: #212a2f;
+  color: whitesmoke;
+  width: 150px;
+  padding: 5px;
+  font-weight: 600;
+
+}
+
+button:hover{
+  background-color: whitesmoke;
+  color: #212a2f;
+  width: 125px;
+  font-weight: 600;
+  transform: scale(1.02);
+
 }
