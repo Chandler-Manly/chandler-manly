@@ -25,7 +25,7 @@ const Home = () => {
           <br />
           <br />
           <li>Drawing a blank during my first whiteboard challenge and subsequently spending the weekend on codewars</li>
-          <li>Referring to Tom Brady when asked, "What's a MVP?" then learning firsthand how to design, develop, and deploy three independent projects and one collaborative</li>
+          <li>Referring to Tom Brady when asked, "What's a MVP?" then learning firsthand how to <b>design, develop, and deploy</b> three independent projects and one collaborative</li>
           <li>
             Sharing my favorite breakfast is an ultimate smoked Salmon bagel and cortados
           </li>
