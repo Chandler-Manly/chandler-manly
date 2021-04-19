@@ -33,8 +33,10 @@ export default function Projects(props) {
             </div>
           </div>
         ))}
-        <div className="portfolio-header">
-        "Art is never finished, only abandoned" -Leondardo Da Vinci
+        <div>
+        {/* <div className="portfolio-header">
+            "Art is never finished, only abandoned" -Leondardo Da Vinci
+        </div> */}
         </div>
       </div>
       </Layout>

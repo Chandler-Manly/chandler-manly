@@ -16,3 +16,10 @@
 .show-image:hover {
   opacity: 1;
 }
+
+
+.show-project-links{
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
