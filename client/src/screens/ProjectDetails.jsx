@@ -24,7 +24,7 @@ export default function Project(props) {
           {showProject.description}
         </div>
         <div className="show-description-techstack">
-          <h2>TECHNICAL`</h2>
+          <h2>TECHNICAL</h2>
           <div>{showProject.technical}</div>
           <div><h2>LANGUAGES & FRAMEWORKS</h2>
             <div className="show-project-languages">
