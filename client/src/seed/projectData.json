@@ -54,9 +54,9 @@
   },
   {
     "name": "Oui Chef!",
-    "link": "https://git.generalassemb.ly/Chandler-Manly/react-router-airtable-lab",
+    "link": "https://github.com/Chandler-Manly/oui-chef",
     "description": "A web-application where users can contribute personalized recipes.",
-    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/react-router-airtable-lab",
+    "gitHub": "https://github.com/Chandler-Manly/oui-chef",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618101006/Minimalist_Circle_Healthy_Cafe_Logo_1_tkollo.png",
     "technical": "Airtable for back-end DB, full CRUD, React, components and life cycle methods, props and state, React Router",
     "languages": "React",
@@ -64,9 +64,9 @@
   },
   {
     "name": "Healthy Smoothies",
-    "link": "https://git.generalassemb.ly/Chandler-Manly/sapphire-smoothies",
+    "link": "https://github.com/Chandler-Manly/healthy-smoothies",
     "description": "Lesson: Sapphire Smoothie Bar",
-    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/sapphire-smoothies",
+    "gitHub": "https://github.com/Chandler-Manly/healthy-smoothies",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618100818/Minimalist_Circle_Healthy_Cafe_Logo_suw4fg.png",
     "technical": "Full CRUD web application. API call to Airtable database. ",
     "languages": "React, react-router-dom, axios",
