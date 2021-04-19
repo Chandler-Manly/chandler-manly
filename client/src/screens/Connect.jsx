@@ -15,6 +15,37 @@ export default function Connect() {
           about building great products, meaningful relationships, and
           delivering world class experiences.
         </div>
+        <div className="additional-context">
+          <h3>Why General Assembly?</h3>
+          While studying for the GMAT exam, I came across a free workshop hosted
+          by General Assembly. I checked on Linkedin if anyone in my network had
+          any association with the organization, and sure enough one of my
+          friends went through the web development immersive. I phoned him and
+          we chatted about his experience and I hung up the phone excited to
+          attend. This workshop was hosted over two-days (Saturday and Sunday)
+          where I gained exposure to HTML, CSS, and Javascript. I have always
+          been curious about computer science and programming and thought this
+          would be a productive way to see if I was truly interested. And
+          indeed, it was. I had an engaging instructor and a collaborative and
+          friendly cohort that did not mind my lack of experience. By Sunday
+          evening, I had created a blog web-application and was hooked. I loved
+          how intricate the problem solving process was. I found that while
+          grammar and syntax play a key role, so does critical reasoning and
+          logic. I also found the joy of debugging successfully greatly
+          outweighed the frustration of that errant comma. So naturally on
+          Monday morning, I started my application for GA’s Software Engineering
+          Immersive program and embarked on my journey into software
+          engineering.
+          <h3>Most Excited About...</h3>
+          I am most excited by the opportunity to work
+          collaboratively with people from a myriad of backgrounds on complex
+          problems that have simple and elegant solutions. As a software
+          engineer, I am thrilled that there will always be something new to
+          learn. I quickly found out that my positive attitude, competitive
+          drive, and growth mindset will be a perfect pairing for this
+          industry and a career in this field will give me the opportunity
+          to further develop my fundamental skills and knowledge base.
+        </div>
         <h3>MEDIA INQUIRIES:</h3>
         <div className="contact-form">
           <form

@@ -5,7 +5,7 @@
     "description": "ON-DEMAND-SOMM is a platform for wine enthusiasts to record their tasting notes.",
     "gitHub": "https://github.com/Chandler-Manly/on-demand-somm",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1617323423/logo_trukob.png",
-    "technical": "Designed, developed, and deployed front and back-end. ON-DEMAND-SOMM is a responsive, React, and Ruby on Rails web application. A platform for wine enthusiasts of all levels to log comprehensive tasting notes and keep track of their beverage experiences. Full CRUD capabilities",
+    "technical": "On-Demand Somm is a responsive, React, and Ruby on Rails web application. Full CRUD capabilities.",
     "languages": "JavaScript, React, Ruby, Ruby on Rails, CSS, Axios, React-Router-Dom, Auth, BCrypt, JWT",
     "id": "1"
   },
@@ -22,12 +22,11 @@
   {
     "name": "Pets-R-Us",
     "link": "https://pets-r-us.netlify.app/",
-    "description": "*Collaboration* Notable contributions: I implemented the create functionality as well as designed the introduction video. Overview: Pets-R-Us is a full (Mongo/Express/React/Node) MERN stack application that allows local animal adoption agencies to post their adorable animals. Every year, thousands of animals are displaced and live without a home. It is our belief that every pet deserves a home. The following is a list of the features: our application has full CRUD on the back, and utilizing the React framework on the front end.",
+    "description": "*Collaboration* Pets-R-Us is a full (Mongo/Express/React/Node) MERN stack application that allows local animal adoption agencies to post their adorable animals. The following is a list of the features: our application has full CRUD on the back-end, and utilizing the React framework on the front-end.",
     "gitHub": "https://github.com/jessicamyee/pets-r-us",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618005184/1_e38gxz.png",
     "technical": "MERN stack application",
     "languages": "React, Express",
-
     "id": "4"
   },
   {
@@ -38,7 +37,6 @@
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618102635/Charcoal_Bordered_Photography_Logo_avwo5y.png",
     "technical": "React",
     "languages": "React, CSS Flexbox",
-
     "id": "17"
   },
   {
@@ -58,7 +56,7 @@
     "description": "A web-application where users can contribute personalized recipes.",
     "gitHub": "https://github.com/Chandler-Manly/oui-chef",
     "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618101006/Minimalist_Circle_Healthy_Cafe_Logo_1_tkollo.png",
-    "technical": "Airtable for back-end DB, full CRUD, React, components and life cycle methods, props and state, React Router",
+    "technical": "Airtable for back-end, full CRUD, React, components and life cycle methods, props and state, React Router",
     "languages": "React",
     "id": "23"
   },
