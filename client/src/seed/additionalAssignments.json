@@ -198,27 +198,6 @@
     "id": "27"
   },
   {
-    "name": "Oui Chef! Recipes A La Carte",
-    "link": "https://git.generalassemb.ly/Chandler-Manly/react-router-airtable-lab",
-    "description": "A web-application where users can contribute personalized recipes.",
-    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/react-router-airtable-lab",
-    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618101006/Minimalist_Circle_Healthy_Cafe_Logo_1_tkollo.png",
-    "technical": "Airtable for back-end DB, full CRUD, React, components and life cycle methods, props and state, React Router",
-    "languages": "React",
-    "id": "23"
-  },
-  {
-    "name": "Healthy Smoothies",
-    "link": "https://git.generalassemb.ly/Chandler-Manly/sapphire-smoothies",
-    "description": "Lesson: Sapphire Smoothie Bar",
-    "gitHub": "https://git.generalassemb.ly/Chandler-Manly/sapphire-smoothies",
-    "imgURL": "https://res.cloudinary.com/dygk00sc0/image/upload/v1618100818/Minimalist_Circle_Healthy_Cafe_Logo_suw4fg.png",
-    "technical": "Full CRUD web application. ",
-    "languages": "React, react-router-dom, axios",
-    "id": "26"
-  },
-
-  {
     "name": "COMING SOON! Data CapStone Project: 911 Calls: Kaggle",
     "link": "",
     "description": "",
