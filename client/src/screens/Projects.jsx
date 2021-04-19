@@ -12,8 +12,7 @@ export default function Projects(props) {
   return (
     <Layout>
       <div className="portfolio">
-        Open Source Projects
-      </div>
+OPEN SOURCE PROJECTS      </div>
       <div></div>
       <div className="project-cards">
         {projects.map((project) => (

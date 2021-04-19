@@ -20,6 +20,21 @@
 
 .show-project-links{
   display: flex;
-  flex-direction: column;
   color: black;
+}
+
+.show-project-links, .view-code{
+  display: flex;
+  justify-content: center;
+  background-color: #212a2f;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.show-project-links:hover, .view-code:hover{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(138, 180, 138); 
+  width: 250px;
+  margin-bottom: 20px;
 }
