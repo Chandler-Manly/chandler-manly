@@ -24,6 +24,10 @@
 
 .my-name-is-neo{
   display: inline;
-  color: whitesmoke;
+  /* color: whitesmoke; */
   font-weight: 600;
+}
+
+.submit-button{
+  margin-top: 10px;
 }

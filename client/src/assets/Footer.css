@@ -2,6 +2,6 @@ footer {
   flex: 1;
   padding: 10px;
   bottom: 0;
-  background-image: linear-gradient(180deg, #212a2f, rgb(77, 85, 89));
-  width: 100%;
+  /* background-image: linear-gradient(180deg, #212a2f, rgb(77, 85, 89)); */
+  /* width: 100%; */
 }
