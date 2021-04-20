@@ -40,8 +40,8 @@ export default function Connect() {
           software engineering.
           <h3>Most Excited About...</h3>I am most excited by the opportunity to
           work collaboratively with people from a myriad of backgrounds on
-          complex problems that have simple and elegant solutions. As a software
-          engineer, I am thrilled that there will always be something new to
+          complex problems that have simple and elegant solutions. As a Software
+          Engineer and Product Manager, I am thrilled that there will always be something new to
           learn. I quickly found out that my positive attitude, competitive
           drive, and growth mindset will be a perfect pairing for this industry
           and a career in this field will give me the opportunity to further

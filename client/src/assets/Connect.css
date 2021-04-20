@@ -67,3 +67,7 @@ button:hover{
   background-color: #36657e;
   color: #212a2f;
 }
+.profile{
+  display: flex;
+  justify-content: center;
+}
