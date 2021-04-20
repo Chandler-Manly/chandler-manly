@@ -6,6 +6,8 @@
   box-shadow: 5px 5px 5px #212a2f;
 }
 
+
+
 .form-group-one{
   display: flex;
   flex-direction: column;
@@ -45,10 +47,23 @@ button{
 }
 
 button:hover{
-  background-color: whitesmoke;
-  color: #212a2f;
+  background-color: #36657e;
+  color: whitesmoke;
   width: 125px;
   font-weight: 600;
   transform: scale(1.02);
 
+}
+
+.resume{
+  display: flex;
+  justify-content: center;
+  background-color: #212a2f;
+  max-width: 575px;
+  margin-top: 20px;
+}
+
+.resume:hover{
+  background-color: #36657e;
+  color: #212a2f;
 }

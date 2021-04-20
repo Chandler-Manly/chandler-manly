@@ -44,6 +44,10 @@ export default function Connect() {
           and a career in this field will give me the opportunity to further
           develop my fundamental skills and knowledge base.
         </div>
+
+        <div className="resume">
+          <a href="https://drive.google.com/file/d/1tfObRsQOH_BysNJYb3Dfil5udCvgWU9k/view?usp=sharing" className="fa fa-file-pdf-o" aria-hidden="true"> H. Chandler Manly Resume SWE | PM</a >
+        </div>
         <h3>MEDIA INQUIRIES:</h3>
         <div className="contact-form">
           <form
