@@ -1,7 +1,4 @@
-.app{
- display: flex;
- justify-content: center;
-  transition: 250ms all;
-
+.app {
+  display: flex;
+  justify-content: center;
 }
-

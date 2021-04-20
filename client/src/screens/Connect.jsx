@@ -6,6 +6,9 @@ export default function Connect() {
   return (
     <Layout backgroundColor={"#212a2f"}>
       <div>
+        <div className="profile">
+          <img src="https://res.cloudinary.com/dygk00sc0/image/upload/v1618234955/Howard_2373_wn6qrg.jpg" alt="profile" />
+        </div>
         <h3>ABOUT ME</h3>
         <div className="about-me">
           Greetings, I'm <div className="my-name-is-neo">Chandler Manly</div>. I
