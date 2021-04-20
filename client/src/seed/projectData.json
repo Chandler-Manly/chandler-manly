@@ -51,7 +51,7 @@
     "id": "18"
   },
   {
-    "name": "Oui Chef!",
+    "name": "Oui Chef",
     "link": "https://github.com/Chandler-Manly/oui-chef",
     "description": "A web-application where users can contribute personalized recipes.",
     "gitHub": "https://github.com/Chandler-Manly/oui-chef",
@@ -61,7 +61,7 @@
     "id": "23"
   },
   {
-    "name": "Dev-Training!",
+    "name": "Dev-Training",
     "link": "https://dev-training.netlify.app/",
     "description": "A web-application that provides an interactive study guide for aspiring software developers.",
     "gitHub": "https://github.com/Chandler-Manly/Dev-Training",
