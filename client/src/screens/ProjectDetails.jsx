@@ -15,12 +15,16 @@ export default function Project(props) {
     <Layout backgroundColor={"rgb(207, 250, 218)"}>
       <div className="project-details">
         
-        <div className="project-details-name">{showProject.name}</div>
+        {/* <div className="project-details-name">{showProject.name}</div> */}
         <div className="show-image">
           <img src={showProject.imgURL} alt={showProject.name} />
         </div>
+        <div className="show-image">
+          <img src={showProject.responsive} alt={showProject.name} />
+        </div>
         <div className="show-description">
-          <h2>OVERVIEW</h2>
+          <h1>OVERVIEW</h1>
+          <h2>{showProject.name}</h2>
           {showProject.description}
         </div>
         <div className="show-description-techstack">

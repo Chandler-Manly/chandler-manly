@@ -1,6 +1,7 @@
 [
   {
     "name": "On-Demand Somm",
+    "responsive":"https://res.cloudinary.com/dygk00sc0/image/upload/v1620776575/mediamodifier_image_jg1yab.png",
     "link": "https://on-demand-somm.netlify.app/",
     "description": "ON-DEMAND-SOMM is a platform for wine enthusiasts to record their tasting notes.",
     "gitHub": "https://github.com/Chandler-Manly/on-demand-somm",
